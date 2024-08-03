@@ -17,3 +17,7 @@ public class In_and_output {
         scan.close();
     }
 }
+
+
+// javac (Name).java
+// java (Name)

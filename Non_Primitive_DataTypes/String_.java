@@ -13,6 +13,10 @@ public class String_ {
 
         String token = sc.next(); // return complete token or input untill an space is encountered
         String str = sc.nextLine(); // return Enter line Meaning till an Enter key(\n)  is encountered
+        String num = "10";
+
+        int number = Integer.parseInt(num.substring(0, 2));
+        System.out.println(number);
 
         System.out.printf("Token: %s\nEntire Line: %s", token, str); // format specifier for strings is --> %s
 
@@ -41,4 +45,8 @@ public class String_ {
 
 /*Immutable:
  *      Immutable means after initialisation of an object it doesn't undergo any changes or updation, in simple we can't perform any changes on the string once initialised.
+ */
+
+/* Then How to make changes in  a String?? the Answer to this are two predefined Objects in Java known as,
+ *          StringBuilder and StringBuffer
  */

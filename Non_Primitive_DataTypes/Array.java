@@ -2,6 +2,7 @@ package Non_Primitive_DataTypes;
 
 import java.util.*;
 
+
 public class Array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,7 +10,7 @@ public class Array {
         int size = sc.nextInt();
 
         int[] arr = new int[size]; // here "new" is a keyword that is used to allocate memory to a variable in case here integer
-        int[][] IamCalledMatrix = new int[size][size]; // it is a 2D array also known as a Matrix allocate size * size space for this variable
+        int[][] IamCalledMatrix = new int[size][size]; // it is a 2D array also known as a Matrix allocateD size * size space for this variable
 
         IamCalledMatrix[0][0] = 1000;
          // elements are accessed as in "C/C++" with index inclosed in btwn squareBraces --> ArrayName[index]
