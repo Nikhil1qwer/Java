@@ -18,5 +18,6 @@ public class Variables {
 
         // Format Specifires
         System.out.printf("%b, %d %d %d %d %f %f %c %s", flag, a, b, c, d, e, f, g, h);
+
     }
 }
