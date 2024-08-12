@@ -39,7 +39,7 @@ public class Array {
         System.out.printf("String Format of Array: %s \n", ArrayString);
 
 
-        System.out.println("Size of the Array is: " + arr.length); // method to retrieve array length
+        System.out.println("Size of the Array is: " + arr.length); // field to retrieve array length
         // Here Addition operator converts arrayLenth into string
 
         sc.close();
