@@ -1,4 +1,4 @@
-package Nikhil;
+package src;
 
 import java.util.Scanner;
 

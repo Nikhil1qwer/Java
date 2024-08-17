@@ -1,4 +1,4 @@
-package Basics;
+package Introduction.Basics;
 
 // Component that Reads-in Input from Buffer.
 import java.util.Scanner;
