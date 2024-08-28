@@ -1,4 +1,5 @@
-package Introduction.WrappperClasses;
+package Introduction.WrapperClasses;
+
 
 public class Integers {
     public static void main(String[] args) {

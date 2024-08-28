@@ -1,4 +1,4 @@
-package Introduction.Non_Primitive_DataTypes;
+package Introduction.NonPrimitiveDataTypes;
 
 /* An ArrayList is a dynamic array that resizes itself just like an Vector in C++.
  * ArrayList takes Objects, & Wrapper Classes of Primitive Datatypes

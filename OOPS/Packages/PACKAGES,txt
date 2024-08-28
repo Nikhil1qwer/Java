@@ -1,0 +1,47 @@
+Packages:
+
+        1. Packages are a way to connected indivisual classes to communicate with the other indivisual classes that are present in the same directory / project folder
+        2. Packages are intialised through the keyword 'package ' and directory name as shown below
+
+ex. -- > package (directory_name);
+
+project-name/
+├── sub-directory/
+│   ├── App.java
+│   ├── PrimaryController.java
+├── bin
+
+Note if the classes are in a nested directory then the proper way to initiate a package is.
+
+                        package directory.sub_directory;
+
+
+
+
+
+
+IMPORTANT: 
+
+    (1) How to compile javafiles which are packaged or a grouped together
+    (Ans) we can compile a sepific file in a directory by using packages as follows
+
+EXAMPLE:   
+    project-name/
+    ├── sub-directory/
+    │   ├── App.java
+    │   ├── PrimaryController.java
+    ├── bin
+
+------> If we want to compile the java file named App.java we should direct it to the relative path such as
+
+        step 1: first using cmd prompt navigate to the project-name directory
+        step 2: view the App.java is present in the directory by using keyword "dir" + ENTER
+        step 3: if is present in the directory let`s start
+        step 4: get the relative path such as "sub_directory/App.java"
+
+        step 5: compile the App.java file using the command
+                "javac sub_directory/App.java"
+        step 6: if compiled without any errors now run the file using the command
+                "java sub_directory.App"
+
+        NOTE: double the commands for compilation and executing a java file

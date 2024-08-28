@@ -1,4 +1,4 @@
-package Introduction.Non_Primitive_DataTypes;
+package Introduction.NonPrimitiveDataTypes;
 
 import java.util.*;
 

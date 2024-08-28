@@ -1,4 +1,4 @@
-package Introduction.WrappperClasses;
+package Introduction.WrapperClasses;
 
 import java.util.*;
 // .Arrays;

@@ -1,12 +1,15 @@
 package src;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class bin {
     public static void main(String[] args) {
-        // Maps
-        HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(1, 1);
-        map.put(1, map.getOrDefault(1, 0) + 1);
+        Set<Integer> set = new HashSet<>();
+        set.add(2);
+        set.add(3);
+        set.add(4);
+        for(int key: set) {
+            System.out.println(key);
+        }
     }
 }

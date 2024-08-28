@@ -1,4 +1,4 @@
-package Introduction.Non_Primitive_DataTypes;
+package Introduction.NonPrimitiveDataTypes;
 
 /* Strings:
  *      Strings are Objects in java just like Wrapper classes of primitive datatypes

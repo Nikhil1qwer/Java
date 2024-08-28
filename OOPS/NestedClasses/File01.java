@@ -1,4 +1,4 @@
-package OOPS.Nested_Classes;
+package OOPS.NestedClasses;
 
 import java.util.*;
 
