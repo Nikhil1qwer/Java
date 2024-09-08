@@ -38,11 +38,11 @@ class Nikhil {
 
     private Queue<String> fans = new LinkedList<>(); // this comes under polymorphism refer Polymorphism.java in the current directory
 
-    /*  Setters: 
-     *      Setters are used to modify private fields of a class if not constant
+    /*  Setters/Mutators: 
+     *      Setters are used to modify both private and public fields of a class if not constant
      * 
      *  Getters:
-     *      Getters are used to retrieve values of a private field in a class 
+     *      Getters are used to retrieve values of both private and public field in a class 
      */
 
     // this is a method that is available to all the classes and can be called outside the class itself

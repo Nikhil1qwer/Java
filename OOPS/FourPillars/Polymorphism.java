@@ -6,6 +6,7 @@ package OOPS.FourPillars;
  * 
  */
 
+
 public class Polymorphism {
     public static void main(String[] args) {
         Circle circle = new Circle("Red", 12);
@@ -18,7 +19,7 @@ public class Polymorphism {
         shapes[2] = square;
 
         for(Shape shape: shapes) {
-            System.out.println(shape.toString());
+            System.out.println(shape);
         }
     }
 }

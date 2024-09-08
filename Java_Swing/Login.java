@@ -1,4 +1,4 @@
-package JavaSwing;
+package Java_Swing;
 
 // Swing / JComponents
 import javax.swing.*;

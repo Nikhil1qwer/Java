@@ -5,7 +5,7 @@ package OOPS.FourPillars;
 /**
  * InnerAbstraction
  */
-interface Shape {
+interface Shape1 {
     final double PI = 3.14;
     abstract public String toString();
     abstract public double calculateArea();
@@ -19,7 +19,7 @@ interface Shape {
     abstract public void setWidth(int width);
 }
 
-abstract class Circle implements Shape {
+abstract class Circle1 implements Shape1 {
     
 }
 

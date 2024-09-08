@@ -1,8 +1,11 @@
 package OOPS.FourPillars;
 
 import java.util.*;
-
-class Shape { // SuperClass (Origin)
+/* NOTE:
+ *      By default all the classes we create ectends the Object by default
+ * To check --> `className` instanceof `className we want to check id it is a super-class`
+ */
+class Shape { // SuperClass (Origin) 
     private String color;
 
     Shape(String color) {
@@ -23,7 +26,7 @@ class Shape { // SuperClass (Origin)
     }
 }
 
-class Circle extends Shape { // subClass (derivatives) of superClass(Shape)
+ class Circle extends Shape {// subClass (derivatives) of superClass(Shape)
     final double PI = Math.PI; // the field PI is assigned as final to not let the sub-classes to modify the PI varaible
     private double radius;
 
@@ -60,7 +63,7 @@ class Circle extends Shape { // subClass (derivatives) of superClass(Shape)
         return 2 * PI * radius;
     }
 
-    @Override
+    @Override // overiding the by default method when we try to print the instance of the class from superclass Object
     public String toString() {
         return "Circle {" + 
                 "Color = " + getColor() + 
@@ -139,7 +142,8 @@ class Square extends Rectangle { // subClass that inherits another subclass(rect
     public int calculatePerimeter() {
         return 4 * side;
     }
-
+    // overiding the by default method when we try to print the instance of the class from superclass Object
+    @Override
     public String toString() {
         return "Square {" + 
                 "Color = " + getColor() + 
@@ -166,10 +170,11 @@ public class Inheritance {
         Rectangle rectangle = new Rectangle("Blue", 12, 12);
         Square square = new Square(12);
 
-        System.out.println(circle.toString());
-        System.out.println(rectangle.toString());
-        System.out.println(square.toString());
+        System.out.println(circle); // when we try to print the instance itself by default toString() method in Object class is triggered
+        System.out.println(rectangle);
+        System.out.println(square);
     }
+
 }
 
 

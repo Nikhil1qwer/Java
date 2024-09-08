@@ -1,8 +1,8 @@
-package JavaSwing;
+package Java_Swing;
 
 import javax.swing.JOptionPane;
 
-public class Prompt {
+public class SignUp {
     public static void main(String[] args) {
         String name = JOptionPane.showInputDialog("Enter your name:");
         JOptionPane.showMessageDialog(null, "Your name is: " + name);
