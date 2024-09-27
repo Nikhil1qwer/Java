@@ -4,6 +4,13 @@ package OOPS.FourPillars;
  * Polymorphism:
  *          DYNAMIC METHOD DISPATCH / DYNAMIC METHOD BINDING
  * 
+ *              Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+ *              It is one of the four fundamental principles of Object-Oriented Programming (OOP).
+ * 
+ * In this example:
+ * - We have a superclass `Shape` and three subclasses `Circle`, `Rectangle`, and `Square`.
+ * - We create instances of these subclasses and store them in an array of type `Shape`.
+ * - At runtime, the appropriate method for each object is called, demonstrating dynamic method dispatch.
  */
 
 

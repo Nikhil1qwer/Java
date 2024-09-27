@@ -1,10 +1,29 @@
 package OOPS.FourPillars;
 
 import java.util.*;
+
+/* Inheritance:
+ *              Inheritance is a fundamental concept in object-oriented programming (OOP) 
+ * that allows a class to inherit properties and behaviors (methods) from another class. 
+ * The class that inherits is called the subclass or derived class, and the class being inherited from is called the superclass or base class.
+ *
+ *   Key Points:
+ *       1. Reusability: 
+ *              Inheritance promotes code reusability. You can create a new class based on an existing class, reusing its code without having to rewrite it.
+ *       2. Hierarchy: 
+ *              It establishes a natural hierarchy between classes. For example, a Dog class can inherit from an Animal class, indicating that a dog is a type of animal.
+ *       3. Method Overriding: 
+ *              Subclasses can override methods of the superclass to provide specific implementations.
+ *       4. Polymorphism: 
+ *              Inheritance supports polymorphism, where a subclass can be treated as an instance of its superclass.
+ */
+
 /* NOTE:
  *      By default all the classes we create extends the Object by default
  * To check --> `className` instanceof `className we want to check id it is a super-class`
  */
+
+
 class Shape { // SuperClass (Origin) 
     private String color;
 
