@@ -1,17 +1,31 @@
 package src;
 
+class User{
+    String name;
+    User() {
+        this.name = "Customer";
+    }
+    User(String name) {
+        this.name = name;
+    }
+    public void greetUser() {
+        System.out.println("Welcome, Customer");
+    }
+    public void greetUser(String name) {
+        System.out.println("Welcome, " + name);
+    }
+}
 public class Task2 {
     public static void main(String[] args) {
-        int[] integers = {1, 2, 3, 4};
-        char[] characters = {'a', 'b', 'c', 'd', 'e'};
-        boolean[] booleans = {true, false, true, false, true};
-        String[] strings = {"Hello", "World", "Java", "Programming"};
+        start();
+    }
 
+    public static void start() {
+        User nikhil = new User("nikhil");
+        User user = new User();
 
-        for(int integer: integers) System.out.println(integer);
-        for(char character: characters) System.out.println(character);
-        for(boolean bool: booleans) System.out.println(bool);
-        for(String string: strings) System.out.println(string);
+        nikhil.greetUser();
+        user.greetUser("Greninja");
     }
 }
 

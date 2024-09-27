@@ -2,7 +2,7 @@ package OOPS.FourPillars;
 
 import java.util.*;
 /* NOTE:
- *      By default all the classes we create ectends the Object by default
+ *      By default all the classes we create extends the Object by default
  * To check --> `className` instanceof `className we want to check id it is a super-class`
  */
 class Shape { // SuperClass (Origin) 

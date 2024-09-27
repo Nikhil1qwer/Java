@@ -14,3 +14,26 @@
 //         return lcm;
 //     }
 // }
+
+package src;
+
+import java.util.Arrays;
+
+class LCM {
+
+    public static void main(String[] args) {
+        String nums = "1235640";
+        char[] sorted = nums.toCharArray();
+        Arrays.sort(sorted);
+
+        if(Arrays.equals(sorted, nums.toCharArray())) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+
+        System.out.println(sorted.length);
+
+        Character.is
+    }
+}

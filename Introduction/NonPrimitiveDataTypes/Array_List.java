@@ -18,9 +18,10 @@ import java.util.Comparator; // Comparator Class to use Comparator in sorting
 public class Array_List {
     public static void main(String[] args) {
         ArrayList<Integer> nums = new ArrayList<>(); // Declaration of an Integer ArrayList with Wrapper Class of integer
-        // we can use String, Char, Double, Float that such are Objects
+        // we can use String, Character, Double, Float that such are Objects
 
         Scanner sc = new Scanner(System.in);
+
 
         System.out.print("Enter ArrayList Size: ");
         int size = sc.nextInt();

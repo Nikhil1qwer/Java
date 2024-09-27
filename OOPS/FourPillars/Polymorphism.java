@@ -23,3 +23,11 @@ public class Polymorphism {
         }
     }
 }
+
+/*  Casting:
+ *      
+ *     Upcasting:   Shape shape = new Circle();
+ *     Downcasting: Circle circle = (Circle) shape;
+ *                  Rectangle rectangle = (Rectangle) shape; // ClassCastException
+ *          
+ */

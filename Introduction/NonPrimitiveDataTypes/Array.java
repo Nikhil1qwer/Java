@@ -1,6 +1,7 @@
 package Introduction.NonPrimitiveDataTypes;
 
 import java.util.*;
+import java.util.stream.IntStream; // oneline array generation
 
 
 public class Array {
@@ -25,6 +26,7 @@ public class Array {
         } System.out.println();
 
 
+
         Arrays.sort(arr); // arrays include a predefined sorting technique
         System.out.print("Array After Sorting: ");
         for(int num: arr) {
@@ -41,6 +43,14 @@ public class Array {
 
         System.out.println("Size of the Array is: " + arr.length); // field to retrieve array length
         // Here Addition operator converts arrayLenth into string
+
+        // int[] num2 = IntStream.generate(sc::nextInt).limit(10).toArray();
+
+        // int[] num3 = IntStream.range(0, 10).toArray(); // generates an array of 10 elements from 0 to 9
+
+        // int minElement = IntStream.of(num3).min().orElse(Integer.MAX_VALUE);
+
+        // int indexOfMin = IntStream.range(0, num3.length).filter(i -> num3[i] == minElement).findFirst().orElse(-1);
 
         sc.close();
     }

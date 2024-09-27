@@ -38,6 +38,17 @@ public class String_ {
          *      Hence, the Original Strings remains Consistant.
          */
 
+        String words = "Hello World";
+
+        for(char c: words.toCharArray()) { // looping over a string
+            System.out.println(c);
+        }
+
+        ArrayList<Character> arr = new ArrayList<>(); // splitting a string into words
+        for(char c: words.toCharArray()) {
+            arr.add(c);
+        }
+
         sc.close();
     }
 }
