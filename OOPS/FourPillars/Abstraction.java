@@ -2,7 +2,7 @@ package OOPS.FourPillars;
 
 
 // Abstract class is a similar to blueprint which defines fields and methods and are implemented in  subclasses
-/**
+/*
  * InnerAbstraction
  */
 interface Shape1 {
@@ -20,7 +20,7 @@ interface Shape1 {
 }
 
 abstract class Circle1 implements Shape1 {
-    
+    // under construction ;)
 }
 
 public class Abstraction {
