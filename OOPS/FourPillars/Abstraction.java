@@ -3,9 +3,9 @@ package OOPS.FourPillars;
 
 // Abstract class is a similar to blueprint which defines fields and methods and are implemented in  subclasses
 /*
- * InnerAbstraction
+ *  Abstract have "Is-A" relation
  */
-interface Shape1 {
+abstract class Shape1 {
     final double PI = 3.14;
     abstract public String toString();
     abstract public double calculateArea();
@@ -19,7 +19,7 @@ interface Shape1 {
     abstract public void setWidth(int width);
 }
 
-abstract class Circle1 implements Shape1 {
+abstract class Circle1 extends Shape1 {
     // under construction ;)
 }
 

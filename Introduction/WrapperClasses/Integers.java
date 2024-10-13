@@ -15,11 +15,7 @@ public class Integers {
         String hexa = "A1B2";
         int heaxNum = Integer.parseInt(hexa, 15);
 
-        System.out.printf("Int: %d\nBinary: %d\nOctal: %d\n Hexa: %d\n",num, binaryNum, octalNum, heaxNum);
-
-
-        // int - string
-
+        System.out.printf("Int: %d\nBinary: %d\nOctal: %d\n Hexa: %d\n", num, binaryNum, octalNum, heaxNum);
 
 
         int decimal = 1234;

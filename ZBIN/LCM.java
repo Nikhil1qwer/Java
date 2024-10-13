@@ -33,7 +33,5 @@ class LCM {
         }
 
         System.out.println(sorted.length);
-
-        Character.is
     }
 }

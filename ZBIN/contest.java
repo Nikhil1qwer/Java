@@ -1,3 +1,5 @@
+package src;
+
 import java.util.*;
 
 public class contest {
@@ -30,5 +32,6 @@ public class contest {
         contest c = new contest();
         int ans = c.solve(n, arr, val);
         System.out.println(ans);
+        sc.close();
     }
 }

@@ -4,20 +4,9 @@ import java.util.*;
 
 public class bin {
     public static void main(String[] args) {
-
-
-        Map<Integer, Integer> map = new HashMap<>();
-
-
-
-
+        HashMap<Integer, Integer> map = new HashMap<>();
         map.put(1, 1); // creating a key-value pair
-
-
         map.put(1, map.getOrDefault(1, 0)); // updating a key-value pair
-
-
-        
         map.remove(2, 0); // removing a key-value pair
         System.out.println(map.get(1)); // getting the value of a key
         System.out.println(map.containsKey(1)); // checking if a key is present or not
@@ -27,7 +16,7 @@ public class bin {
         }
 
 
-        Set<Integer> set = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>();
         set.add(2); // inserting an element
         set.add(3);
         set.add(4);
@@ -36,20 +25,6 @@ public class bin {
         for(int key: set) { // range based for loop
             System.out.println(key);
         }
-
-        String words = "Hello World";
-
-        for(char c: words.toCharArray()) {
-            System.out.println(c);
-        }
-
-        String[] arr = {"Hello", "World"};
-        System.out.println(arr.length);
-
-
-        String hexa = "3A";
-        int num = Integer.parseInt(hexa, 16); // specify base 16 for hexadecimal
-        System.out.println(num);
         
     }
 }

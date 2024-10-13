@@ -1,12 +1,21 @@
-package OOPS.ExeptionHandling;
+package OOPS.ExeptionHandling__try_catch;
 
 import java.util.*;
 import java.lang.AutoCloseable;
 
-public class Branching implements AutoCloseable{
-    public static void main(String[] args) {
-        try (Branching resource = new Branching(); Scanner sc = new Scanner(System.in)) {
+/*  Exception Handling:     try - catch - finally
+ *      the try catch statement are used to overcome the runtime errors that arise during runtime\
+ *      these are handled by the programmer before the execution of the program
+ *      
+ *      
+ *      Multi-catch Statement
+ */
 
+public class Try_ implements AutoCloseable{
+    public static void main(String[] args) {
+        // if we initialise Object Like Scanner etc.., we no longer have to manually close them
+        try {
+            Scanner sc = new Scanner(System.in);
             System.out.println("Enter your Age(in yrs): ");
             int Age = sc.nextInt();
 
@@ -20,11 +29,13 @@ public class Branching implements AutoCloseable{
                 System.out.println("I can't be accessed");
             }
             
-        } catch (Exception e) {
+            sc.close();
+            System.exit(0);
+            
+        } catch (InputMismatchException e) {
             System.out.println("Invalid Input");
-            e.printStackTrace();
+            // e.printStackTrace();
         }
-
     }
     
     @Override // finalizer overloading

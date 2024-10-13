@@ -1,4 +1,4 @@
-package Introduction.NonPrimitiveDataTypes;
+package Introduction.Collections;
 
 import java.util.*;
 import java.util.stream.IntStream; // oneline array generation
@@ -44,7 +44,8 @@ public class Array {
         System.out.println("Size of the Array is: " + arr.length); // field to retrieve array length
         // Here Addition operator converts arrayLenth into string
 
-        // int[] num2 = IntStream.generate(sc::nextInt).limit(10).toArray();
+        int[] num2 = IntStream.generate(sc::nextInt).limit(10).toArray();
+        System.out.println(num2.toString());
 
         // int[] num3 = IntStream.range(0, 10).toArray(); // generates an array of 10 elements from 0 to 9
 

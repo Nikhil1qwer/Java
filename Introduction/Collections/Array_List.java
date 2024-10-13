@@ -1,4 +1,4 @@
-package Introduction.NonPrimitiveDataTypes;
+package Introduction.Collections;
 
 /* An ArrayList is a dynamic array that resizes itself just like an Vector in C++.
  * ArrayList takes Objects, & Wrapper Classes of Primitive Datatypes
@@ -18,10 +18,9 @@ import java.util.Comparator; // Comparator Class to use Comparator in sorting
 public class Array_List {
     public static void main(String[] args) {
         ArrayList<Integer> nums = new ArrayList<>(); // Declaration of an Integer ArrayList with Wrapper Class of integer
-        // we can use String, Character, Double, Float that such are Objects
+        // we can use String, Character, Double, Float & Boolean that such are Objects
 
         Scanner sc = new Scanner(System.in);
-
 
         System.out.print("Enter ArrayList Size: ");
         int size = sc.nextInt();

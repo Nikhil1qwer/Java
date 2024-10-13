@@ -92,6 +92,12 @@ class Shape { // SuperClass (Origin)
                 "}\n";
     }
 
+    @Override
+    public void finalize()
+    {
+        System.out.println("finalize method overridden");
+    }
+
 }
 
 class Rectangle extends Shape { // subClass of superClass(Shape)
