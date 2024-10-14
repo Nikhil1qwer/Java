@@ -1,4 +1,4 @@
-package src;
+package ZBIN;
 
 public class F{
     public static void main(String[] args){

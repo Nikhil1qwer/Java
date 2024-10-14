@@ -1,4 +1,4 @@
-package src;
+package ZBIN;
 
 class User{
     String name;

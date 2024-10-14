@@ -1,5 +1,4 @@
-package src;
-
+package ZBIN;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 

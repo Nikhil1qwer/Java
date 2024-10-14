@@ -15,7 +15,7 @@
 //     }
 // }
 
-package src;
+package ZBIN;
 
 import java.util.Arrays;
 

@@ -1,5 +1,4 @@
-package src;
-
+package ZBIN;
 import java.util.*;
 
 public class contest {

@@ -1,5 +1,4 @@
-package src;
-
+package ZBIN;
 public class CharAtZero {
     public static void main(String[] args) {
         firstOccurence("abc", "def", "ghi", "nik", "hil");
