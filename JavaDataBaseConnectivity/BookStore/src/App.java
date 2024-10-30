@@ -1,16 +1,27 @@
 
+import javax.swing.*;
+import java.sql.*;
+// import com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping;
 
-// import Java_Swing.Main;
+// import java.sql.*;
+
+// import javax.swing.JOptionPane;
+
+// import com.mysql.cj.xdevapi.Statement;
 
 public class App {
+
+    public static void start() throws SQLException {
+        JDBC.enableConnection();
+    }
+
+
     public static void main(String[] args) throws Exception {
-        if(JDBC.enableConnection()) {
-            // System.out.println("Connection established."); --pass
-            // Main.main(args); --pass
-            JDBC.testConnection();  //-- pass
-            // JDBC.registerUser(); --pass
-        } else {
-            System.out.println("Connection failed.");
+        try{
+            start();
+        } 
+        catch(SQLException e){
+            JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }
 }

@@ -9,6 +9,11 @@ interface Inf {
     void printUserDetails();
 }
 
+// Functional Interface can only contain exactly one abstract method
+@FunctionalInterface
+interface infer {
+  int add(int a, int b);
+}
 public class InfImpl implements Inf {
     private String name;
     private int age;
@@ -40,5 +45,9 @@ public class InfImpl implements Inf {
         i.printUserDetails();
         i.greetUser();
         i.thankUser();
+
+
+        infer operation = (a, b) -> a + b;
+        System.out.println(operation.add(10, 20));
     }
 }

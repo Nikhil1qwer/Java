@@ -1,10 +1,12 @@
 
+import javax.swing.*;
 import java.sql.*;
 
 public class JDBC {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/book_store";
+    private static String DB_PATH = JOptionPane.showInputDialog("Enter DataBase Name: ");
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/" + DB_PATH;
     private static final String USER = "root";
-    private static final String PASSKEY = "oppai";
+     static final String PASSKEY = "oppai";
 
     private static Connection key = null;
     private static Statement stmt = null;
@@ -17,6 +19,9 @@ public class JDBC {
     public static boolean enableConnection() {
         try {
             key = DriverManager.getConnection(DB_URL, USER, PASSKEY);
+            if(key != null) {
+                JOptionPane.showMessageDialog(null,  "Connected Successfully");
+            }
             stmt = key.createStatement();
         } catch(SQLException e) {
             e.printStackTrace();
@@ -36,6 +41,7 @@ public class JDBC {
             if(key != null) {
                 key.close();
             }
+            JOptionPane.showMessageDialog(null,  "Closed Successfully");
         } catch(SQLException e) {
             System.out.println("Error: Closing Connection.");
         }

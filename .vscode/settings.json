@@ -14,10 +14,24 @@
             "database": "book_store",
             "username": "root",
             "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "localhost",
+            "database": "sql_store",
+            "username": "root"
         }
     ],
     "java.project.referencedLibraries": [
         "book_store/ConnectorJ.jar",
         "c:\\Users\\chint\\Documents\\Connector_J\\mysql-connector-j-9.0.0\\mysql-connector-j-9.0.0.jar"
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
